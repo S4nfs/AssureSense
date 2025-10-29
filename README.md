@@ -1,0 +1,75 @@
+# Assure Sense
+
+A comprehensive AI-powered clinical documentation platform with real-time speech recognition, intelligent template generation, and SOAP note automation.
+
+### Clinical Document Templates
+
+The platform can generate the following clinical documents using AI:
+
+1. **Medical Certificate** - Official medical certificates for patients
+2. **Patient Friendly Summary** - Easy-to-understand consultation summaries
+3. **Mental Health Plan** - Comprehensive mental health treatment plans
+4. **Referral Letter** - Professional referral letters to specialists
+5. **Free Form Letter** - Customizable letters for various purposes
+6. **Issues List** - Organized list of patient health issues
+7. **SMART Goals** - Specific, Measurable, Achievable, Relevant, Time-bound goals
+8. **Mental Health Consult** - Detailed mental health consultation notes
+9. **Carers Certificate** - Certificates for patient carers
+10. **Letter to Referring Doctor** - Professional correspondence with referring physicians
+11. **SOAP Notes** - Structured Subjective, Objective, Assessment, Plan notes
+
+## Getting Started
+
+### Installation
+
+1. Clone the repository and install dependencies:
+   \`\`\`bash
+   npm install
+   \`\`\`
+
+2. Set up environment variables:
+
+   - Copy `.env.example` to `.env.local`
+   - Fill in all required environment variables (see Environment Variables section below)
+
+3. Run the database migration:
+
+   - The SQL script in `scripts/001_create_schema.sql` will create all necessary tables
+
+4. Start the Next.js development server:
+   \`\`\`bash
+   npm run dev
+   \`\`\`
+
+5. (Optional) Start the Python backend:
+   \`\`\`bash
+   cd python-backend
+   pip install -r requirements.txt
+   uvicorn main:app --reload --port 8000
+   \`\`\`
+
+## Environment Variables
+
+#### Supabase (Database & Authentication)
+
+\`\`\`
+SUPABASE_URL=your_supabase_project_url
+NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+SUPABASE_ANON_KEY=your_supabase_anon_key
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
+NEXT_PUBLIC_DEV_SUPABASE_REDIRECT_URL=http://localhost:3000
+\`\`\`
+
+#### Optional: Supabase Database Connection Strings
+
+\`\`\`
+SUPABASE_POSTGRES_URL=your_postgres_connection_string
+SUPABASE_POSTGRES_PRISMA_URL=your_prisma_connection_string
+SUPABASE_POSTGRES_URL_NON_POOLING=your_non_pooling_connection_string
+SUPABASE_POSTGRES_HOST=your_postgres_host
+SUPABASE_POSTGRES_USER=your_postgres_user
+SUPABASE_POSTGRES_PASSWORD=your_postgres_password
+SUPABASE_POSTGRES_DATABASE=your_postgres_database
+SUPABASE_JWT_SECRET=your_jwt_secret
+\`\`\`
