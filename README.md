@@ -1,6 +1,12 @@
-# Assure Sense
+# Assure Sense (private repo)
 
 A comprehensive AI-powered clinical documentation platform with real-time speech recognition, intelligent template generation, and SOAP note automation.
+
+## Showcase
+
+![AssureSense Dashboard](./AssureSenseDashboard.png)
+
+![AssureSense Consultation](./AssureSenseConsultation.png)
 
 ### Clinical Document Templates
 
@@ -9,13 +15,6 @@ The platform can generate the following clinical documents using AI:
 1. **Medical Certificate** - Official medical certificates for patients
 2. **Patient Friendly Summary** - Easy-to-understand consultation summaries
 3. **Mental Health Plan** - Comprehensive mental health treatment plans
-
-## Showcase
-
-![AssureSense Dashboard](./AssureSenseDashboard.png)
-
-![AssureSense Consultation](./AssureSenseConsultation.png)
-
 4. **Referral Letter** - Professional referral letters to specialists
 5. **Free Form Letter** - Customizable letters for various purposes
 6. **Issues List** - Organized list of patient health issues
@@ -26,11 +25,18 @@ The platform can generate the following clinical documents using AI:
 11. **SOAP Notes** - Structured Subjective, Objective, Assessment, Plan notes
 
 ### What we can build next
-
 - Integration with EHR systems for seamless data exchange
 - Correlate verbal descriptions with potential visual markers in medical imaging
 - Population Health Analytics
-- Sending automated reminders to patients for follow-ups and medication adherence
+- Sending automated reminders to patients for follow-ups and medication adherence using SMS/EMAIL delivery using agents.
+
+### Features Added:
+- Auth using native Supabase
+- Ability to resume consultation
+- Turborebo for faster development with Next16
+- NLP as per the task
+- Gemini for SOAP summary generation
+- Exposure to Python Backend using Rest API deployed on docker
 
 ## Getting Started
 
