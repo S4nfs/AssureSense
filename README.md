@@ -9,6 +9,13 @@ The platform can generate the following clinical documents using AI:
 1. **Medical Certificate** - Official medical certificates for patients
 2. **Patient Friendly Summary** - Easy-to-understand consultation summaries
 3. **Mental Health Plan** - Comprehensive mental health treatment plans
+
+## Showcase
+
+![AssureSense Dashboard](./AssureSenseDashboard.png)
+
+![AssureSense Consultation](./AssureSenseConsultation.png)
+
 4. **Referral Letter** - Professional referral letters to specialists
 5. **Free Form Letter** - Customizable letters for various purposes
 6. **Issues List** - Organized list of patient health issues
@@ -17,6 +24,13 @@ The platform can generate the following clinical documents using AI:
 9. **Carers Certificate** - Certificates for patient carers
 10. **Letter to Referring Doctor** - Professional correspondence with referring physicians
 11. **SOAP Notes** - Structured Subjective, Objective, Assessment, Plan notes
+
+### What we can build next
+
+- Integration with EHR systems for seamless data exchange
+- Correlate verbal descriptions with potential visual markers in medical imaging
+- Population Health Analytics
+- Sending automated reminders to patients for follow-ups and medication adherence
 
 ## Getting Started
 
