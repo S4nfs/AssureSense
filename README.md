@@ -39,7 +39,7 @@ The platform can generate the following clinical documents using AI:
 - Exposure to Python Backend using Rest API deployed on docker
 
 ### Known Bugs:
-Diarization bug: Return transcript events that include speaker labels in an utterances array are labbeled as only Speaker[0]. I'll fix this before we meet.
+Diarization bug: Return transcript events that include speaker labels in an utterances array are labeled as only Speaker[0]. I'll fix this before we meet.
 
 ## Getting Started
 
