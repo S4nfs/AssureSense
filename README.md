@@ -1,4 +1,4 @@
-# Assure Sense (private repo)
+# Assure Sense (Astra Health Open Source Platform)
 
 A comprehensive AI-powered clinical documentation platform with real-time speech recognition, intelligent template generation, and SOAP note automation.
 
@@ -25,12 +25,14 @@ The platform can generate the following clinical documents using AI:
 11. **SOAP Notes** - Structured Subjective, Objective, Assessment, Plan notes
 
 ### What we can build next
+
 - Integration with EHR systems for seamless data exchange
 - Correlate verbal descriptions with potential visual markers in medical imaging
 - Population Health Analytics
 - Sending automated reminders to patients for follow-ups and medication adherence using SMS/EMAIL delivery using agents.
 
 ### Features Added:
+
 - Auth using native Supabase
 - Ability to resume consultation
 - Turborebo for faster development with Next16
@@ -39,7 +41,8 @@ The platform can generate the following clinical documents using AI:
 - Exposure to Python Backend using Rest API deployed on docker
 
 ### Known Bugs:
-Diarization bug: Return transcript events that include speaker labels in an utterances array are labeled as only Speaker[0]. I'll fix this before we meet.
+
+Diarization bug: Return transcript events that include speaker labels in an utterances array are labeled as only Speaker[0].
 
 ## Getting Started
 
@@ -71,28 +74,4 @@ Diarization bug: Return transcript events that include speaker labels in an utte
    uvicorn main:app --reload --port 8000
    \`\`\`
 
-## Environment Variables
-
-#### Supabase (Database & Authentication)
-
-\`\`\`
-SUPABASE_URL=your_supabase_project_url
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-SUPABASE_ANON_KEY=your_supabase_anon_key
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
-NEXT_PUBLIC_DEV_SUPABASE_REDIRECT_URL=http://localhost:3000
-\`\`\`
-
-#### Optional: Supabase Database Connection Strings
-
-\`\`\`
-SUPABASE_POSTGRES_URL=your_postgres_connection_string
-SUPABASE_POSTGRES_PRISMA_URL=your_prisma_connection_string
-SUPABASE_POSTGRES_URL_NON_POOLING=your_non_pooling_connection_string
-SUPABASE_POSTGRES_HOST=your_postgres_host
-SUPABASE_POSTGRES_USER=your_postgres_user
-SUPABASE_POSTGRES_PASSWORD=your_postgres_password
-SUPABASE_POSTGRES_DATABASE=your_postgres_database
-SUPABASE_JWT_SECRET=your_jwt_secret
-\`\`\`
+Built with ❤️ for Open Source. Always.
