@@ -49,9 +49,10 @@ Diarization bug: Return transcript events that include speaker labels in an utte
 ### Installation
 
 1. Clone the repository and install dependencies:
-   \`\`\`bash
+
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 2. Set up environment variables:
 
@@ -63,15 +64,16 @@ Diarization bug: Return transcript events that include speaker labels in an utte
    - The SQL script in `scripts/001_create_schema.sql` will create all necessary tables
 
 4. Start the Next.js development server:
-   \`\`\`bash
+
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
 5. (Optional) Start the Python backend:
-   \`\`\`bash
+   ```bash
    cd python-backend
    pip install -r requirements.txt
    uvicorn main:app --reload --port 8000
-   \`\`\`
+   ```
 
 Built with ❤️ for Open Source. Always.
